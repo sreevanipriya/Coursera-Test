@@ -1,0 +1,143 @@
+body {
+		font-family: "Times New Roman", Times, serif;
+	}
+
+	#header {
+		text-align: center;
+		margin-top: 5%;
+		font-weight: bold;
+	}
+
+	p {
+		padding: 2%;
+
+	}
+	@media (min-width: 992px) {
+	#div1 {
+		width: 29%;
+		height: 10%;
+		background-color: grey;
+		float:right;
+		border:1px solid black;
+		margin: 1%;
+		margin-top: 6%;
+	}
+
+	#div2 {
+		width: 29%;
+		height: 10%;
+		background-color: grey;
+		float: right;
+		border:1px solid black;
+		margin: 1%;
+		margin-top: 6%;
+	}
+
+	#div3 {
+		width: 29%;
+		height: 15%;
+		background-color: grey;
+		float: right;
+		border:1px solid black;
+		margin: 1%;
+		margin-top: 6%;
+	}
+	}
+
+
+	@media (min-width: 768px) and (max-width: 991px) {
+	#div1 {
+		width: 47%;
+		height: 10%;
+		background-color: grey;
+		float:right;
+		border:1px solid black;
+		margin: 1%;
+	}
+
+	#div2 {
+		width: 47%;
+		height: 10%;
+		background-color: grey;
+		float: right;
+		border:1px solid black;
+		margin: 1%;
+	}
+
+	#div3 {
+		width: 96%;
+		height: 15%;
+		background-color: grey;
+		border:1px solid black;
+		margin-top: 35%;
+		margin-left: 2.5%
+	}
+	}
+
+	@media (max-width: 767px) {
+		#div1 {
+		width: 96%;
+		height: 10%;
+		background-color: grey;
+		border:1px solid black;
+		margin: 10px;
+		margin-top: 6%;
+	}
+
+	#div2 {
+		width: 96%;
+		height: 10%;
+		background-color: grey;
+		border:1px solid black;
+		margin: 10px;
+		margin-top: 6%;
+	}
+
+	#div3 {
+		width: 96%;
+		height: 10%;
+		background-color: grey;
+		border:1px solid black;
+		margin: 10px;
+		margin-top: 6%;
+	}
+	}
+
+	#section1 {
+		width: 19%;
+		height: 10%;
+		background-color: orange;
+		position: relative;
+		left: 80.8%;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black; 
+		text-align: center;
+		text-transform: capitalize;
+		font-weight: bold;
+	}
+	#section2 {
+		width: 19%;
+		height: 10%;
+		font-variant: normal;
+		background-color: green;
+		position: relative;
+		left:80.8%;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black; 
+		text-align: center;
+		text-transform: capitalize;
+		font-weight: bold;
+	}
+	#section3 {
+		width: 19%;
+		height: 10%;
+		font-variant: normal;
+		background-color: yellow;
+		position: relative;
+		left: 80.8%;
+		border-left: 1px solid black;
+		border-bottom: 1px solid black; 
+		text-align: center;
+		text-transform: capitalize;
+		font-weight: bold;
+	}
